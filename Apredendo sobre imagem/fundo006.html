@@ -12,10 +12,19 @@
             background-position: center center;/*Centraliza a Imagem*/
             background-repeat: no-repeat;/*tira a repetiçao da imagem*/
             background-size: cover;/*vai cobrir a tela inteira*/
+            background-attachment: fixed; /*vinculo de imagem para ficar presa*/
+
+            /*Shorthand - background
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+
+            /* mesma coisa os dois de cima*/
         }
         main{
             background-color: aliceblue;
-            width: 400px; /*Largura*/
+            max-width: 400px; /*Largura*/
             padding: 10px;/*espaço interno*/
             margin: auto;/* alinhar ao meio*/
             border: 1px solid darkblue;/*Borda em volta do main, relacionada a cor*/
