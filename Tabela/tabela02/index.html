@@ -20,8 +20,17 @@
             padding: 10px;/*Deixa o quadrado mais gordinho*/
 
         }
+        caption{
+            font-size: 1.5em;/*aumenta o tamanho da letra*/
+            font-weight: bold;/*deixa em negrito*/
+            padding: 10px;/*aumenta o espaçamento*/
+            background-color: rgb(179, 172, 172);
+          
+        
+        }
+      
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(114, 109, 109);
             color: aliceblue;
         }
         td.num{
@@ -45,10 +54,11 @@
           }
     -->
     <table>
+        <caption>populaçao das Unidades Federativas</caption>
         <thead>
           <tr>
-               <th>ESTADO</th>
-               <th>populaçao</th>
+               <th scope="col">ESTADO</th>
+               <th scope="col" style="width: 50px;">populaçao</th>
           </tr>
         </thead>
         <tbody>
@@ -99,10 +109,11 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>total de habitantes</th>
+                <th scope="row">total de habitantes</th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
+        
     </table>
 </body>
 </html>
