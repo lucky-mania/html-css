@@ -12,7 +12,7 @@
             }
         table{
             width: 500px;
-            border-collapse: collapse;
+            border-collapse: collapse;/*junta todos os quadrados*/
 
         }
         td,th{
@@ -27,6 +27,12 @@
             background-color: rgb(179, 172, 172);
           
         
+        }
+        /*odd= inpar
+        even- par
+        */
+        tbody > tr:nth-child(2n)/*pula de 2 linhas em duas linhas*/{
+            background-color: lightgray;
         }
       
         thead, tfoot{
