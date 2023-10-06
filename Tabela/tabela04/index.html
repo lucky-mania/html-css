@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+          border-collapse: collapse;
+          width: 500px;/*Largura*/
+        }
+        caption{
+            font-size: 1.3em;/*tamanho da letra*/
+            font-weight: bolder;/*Deixa e, negrito*/
+            padding: 8px;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 8px;/*espaçamento*/
+        }
+        .destaque{
+           
+        }
+        col.nome{
+            background-color: chartreuse;
+        }
+        col.grupo{
+            background-color: aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+        <colgroup>
+        <col class="nome">
+        <col class="grupo" span="2">
+        <col class="prof">
+       </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Joe alves</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Maria </td>
+            <td>M</td>
+            <td>17</td>
+            <td>Programador</td>
+        </tr>
+        <tr class="destaque">
+            <td>ph</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td> Ste</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Programador</td>
+        </tr>
+        <tr class="destaque">
+            <td>Sampaio</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Programador</td>
+        </tr>
+    </table>
+</body>
+</html>
