@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;/*Junta os quedrados*/
+        }
+        caption{
+            font-size: 1.2em;/*Tamanho da letra*/
+            font-weight: bolder;/*deixa em Negrito*/
+            padding: 20px;/*espaçamento*/
+        }
+        th{
+            border: 1px solid black;
+            font-size: bolder;/*Letra em Negrito*/
+            padding: 10px;/*espaçamento*/
+        }
+        tr:nth-child(even)/*1 colorida e outra nao*/{
+            background-color: gray;
+        }
+        div#resp/*deixa uma barra de rolamento*/{
+            overflow-x:auto ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam quibusdam quisquam sed animi? Ducimus, eius doloribus ad sequi officiis ex dolore laboriosam aliquam autem repellat ipsam minima, assumenda magnam.</p>
+    <div id="resp">
+        <table>
+            <caption>Tabelas responsivas</caption>
+            <thead>
+                <tr>
+                    <!--
+                        th; deixa a letra em negrito ja!
+        
+                        td: Nao deixa a letra em negrito, so se colocar(font-size:bolder)
+                    -->
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                        <th>Ago</th>
+                        <th>Set</th>
+                        <th>out</th>
+                        <th>Nov</th>
+                        <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
