@@ -6,18 +6,25 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Primeiro Formulario</h1>
       <!--
-        Get: Passa pela Url essas informaçoes
+        Get: Passa pela Url essas informaçoes(usar quando os dados n forem sensiveis, tipo: peso, altura,etc....)
         POST: Para mandar no servidor
     -->
     <form action="Formulario.html" method="get">
-    <label for="email">email:</label><!--nome antes do input-->
-    <input type="email" name="email" id="email" placeholder="nome">
+    <p>
+        <label for="email">email:</label><!--nome antes do input-->
+        <input type="email" name="email" id="email" placeholder="nome" required><br>
+    </p>
    
-    <label for="senha">senha:</label>
-    <input type="password" name="senha" id="senha" placeholder="senha">
+    <p>
+        <label for="senha">senha:</label>
+        <input type="password" name="senha" id="senha" placeholder="senha" required>
+    </p>
     
-    <button>Submit</button>
+<button>Submit</button>
+
+  
 </form>
 </body>
 </html>
