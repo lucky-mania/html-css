@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 290px;
+        }
+        #idade{
+            width: 152px;
+            color: black;
+        }
+        #letraPreta{
+            font-weight: bolder;
+        }
+        #letraPreta:hover{
+            color: blue;
+        }
+        input{
+            
+        }
+        #mas:hover{
+            color: blue;
+        }
+        #Fem:hover{
+            color: rgb(229, 177, 185);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Formualario</h1>
+    <fieldset >
+        <legend>info</legend>
+        <form action="https://www.instagram.com/joe_alvsz/" autocomplete="off">
+           
+          
+              <p>
+                  <label for="nome" id="letraPreta">Nome:</label>
+                  <input type=" text" id="nome"  placeholder="Seu Nome" required size="12" >
+              </p>
+          
+
+          <p>
+              <label for="idade" id="letraPreta">idade:</label>
+              <input type="number" id="idade" placeholder="Sua Idade" size="12"  required ><br>
+          </p>
+
+         <p>
+             <label for="estado" id="letraPreta">estado:</label>
+              <input type="text" id="estado" placeholder="Seu Estado" size="12"   required>
+         </p>
+
+          <p>
+              <label for="NP" id="letraPreta">Nome do Pai:</label>
+              <input type="text" placeholder="Nome do seu Pai" size="12" required >
+          </p>
+          <p>
+            <label for="sexo" id="letraPreta">sexo:</label>
+
+            <input type="radio" id="Mas"><label for="Masculino" id="mas">Masculino</label>
+
+            <input type="radio" id="Fem"><label for="Feminino" id="Fem">Feminino</label>
+          </p>
+
+          <p>
+              <input type="submit" value="enviar" >
+              <input type="reset" value="Apagar">
+          </p>
+        </form>
+    </fieldset>
+</body>
+</html>
