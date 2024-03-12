@@ -13,22 +13,28 @@ body{
     display: block;
     border-radius: 10px;
     box-shadow: 0px 0px 0px 1px;
+    flex-direction: column;
 
     position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
 }
 .titulo{
  color: black;
+ text-align: start;
+ padding-inline-start: 5px;
 }
 
 .inputs{
     text-align: center;
     justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
 }
 button{
     width: 200px;
     background-color: blueviolet;
     color: aliceblue;
 }
+
 
 
 
