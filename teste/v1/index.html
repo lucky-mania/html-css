@@ -5,19 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #gap{
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(19, 19, 90);
+        }
+        .center{
             display: flex;
-            gap: 10px;
             flex-direction: column;
-            width: 40px;
-        }  
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 20px;
+        }
+        h1{
+            color: aliceblue;
+        }
+        section{
+           display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            width: 500px;
+            height: 50px;
+            font-size: 20px;
+            border: 2px solid black;
+            background-color:rgb(25, 25, 90);
+            gap: 20px;
+        }
+        .container:hover{
+        background-color: aqua;
+        }
+        p{
+            color: aliceblue;
+        }
+
     </style>
 </head>
 <body>
-    <h1>button</h1>
-    <div id="gap">
-        <button>aqui</button>
-        <button>aqui</button>
+    <div class="center">
+        <div>
+            <h1 class="vs">Pataforma perfeita de IA do <span>Joe alves</span></h1>
+        </div>
+        <section>
+            <div class="container">
+                <i class="	fas fa-code"></i>
+              <p>Tecnica para aprender a programar dormindo</p>
+            </div>
+        
+            <div class="container">
+                <p>Montar um supermod pro minecreft</p>
+            </div>
+        
+            <div class="container">
+                <p>Aprender Matematica jogando no Play</p>
+            </div>
+        
+            <div class="container">
+                <p>Aprender a programr e dificl mais vale a pena!</p>
+            </div>
+           </section>
     </div>
 </body>
 </html>
